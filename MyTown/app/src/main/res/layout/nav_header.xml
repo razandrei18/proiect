@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="26dp"
+        android:paddingLeft="6dp"
+        app:srcCompat="@mipmap/ic_stema_round" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="times new roman"
+        android:paddingLeft="2dp"
+        android:paddingTop="4dp"
+        android:text="Primăria Gura Humorului"
+        android:textColor="@color/titleColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="times new roman"
+        android:paddingTop="6dp"
+        android:text="Email: primariagh@gmail.com"
+        android:textColor="@color/titleColor"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/link_textview"
+        android:autoLink="all"
+        android:clickable="true"
+        android:textColorLink="@color/titleColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="times new roman"
+        android:paddingTop="6dp"
+        android:text="www.primariagh.ro"
+        android:textColor="@color/titleColor"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="times new roman"
+        android:paddingTop="6dp"
+        android:text="Program: 08,oo-16,oo (Luni-Vineri)"
+        android:textColor="@color/titleColor"
+        android:textSize="12sp" />
+
+</LinearLayout>
